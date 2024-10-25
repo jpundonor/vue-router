@@ -19,7 +19,6 @@ const routes = [
     path: '/products',
     name: 'products',
     component: () => import('../views/ProductsView.vue'),
-    // props: true
   },
   {
     path: '/contact',
